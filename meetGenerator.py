@@ -21,6 +21,7 @@ class Generator:
             return "\n".join(links)
         return self.message
         
-gen = Generator()
-print(gen.generate(10))
+if __name__ == "__main__":
+    gen = Generator()
+    print(gen.generate(10))
 
